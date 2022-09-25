@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,100;1,300&display=swap');
+
+
+.font{
+    color: #1771BC;
+    font-weight: bold;
+}
+.font1 {
+    font-family: Roboto;
+}
+
+.background_Image{
+    background-image: url('../images/bg-2.png');
+    background-position: center;
+    background-size: cover;
+}
+#hover{
+    transition: all 0.5s ease;
+}
+#hover:hover {
+transform:translate(1px);
+box-shadow: rgba(4, 70, 250, 0.961) 0px 5px 15px;
+cursor: pointer;
+}
